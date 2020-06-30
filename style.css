@@ -5,10 +5,33 @@ body{
 h1{
     line-height: 18px;
 }
-.welcome{
-    color: #3aca46;
+.banner-area{
+    padding: 5% 8%;
 }
-.name-banner{
+
+.left-half,
+.right-half{
+    width: 45%;
+    float: left;
+    margin: 0 2%;
+}
+
+.left-half img{
+   width: 100%;
+}
+
+.left-half .name-banner{
     color: orange;
     font-size: 40px;
+}
+
+.left-half .welcome{
+    color: darkred;
+    font-size: 30px;
+}
+
+.para{
+    font-size: 15px;
+    text-align: justify;
+    text-decoration-color: rgb(39, 27, 27);
 }
