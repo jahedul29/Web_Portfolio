@@ -1,0 +1,14 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    line-height: 18px;
+}
+.welcome{
+    color: #3aca46;
+}
+.name-banner{
+    color: orange;
+    font-size: 40px;
+}
