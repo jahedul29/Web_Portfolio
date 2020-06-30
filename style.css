@@ -148,10 +148,9 @@ h1{
     }
 }
 
-@media only screen and (max-width: 400px)
+@media only screen and (max-width: 500px)
 {
     section{
-        border: 2px solid red;
         height: 700px;
     }
     .dream-area{
@@ -162,7 +161,7 @@ h1{
         width: 100%;
     }
     .experience-area{
-        height: 1100px;
+        height: 90g0px;
     }
     .single-experience{
         width: 90%;
