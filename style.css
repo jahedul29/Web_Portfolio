@@ -2,7 +2,6 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-
 h1{
     line-height: 18px;
 }
@@ -11,30 +10,36 @@ h1{
     background: url(./images/top-banner.png);
     background-repeat: no-repeat;
 }
-
 .left-half,
 .right-half{
     width: 45%;
     float: left;
     margin: 0 2%;
 }
-
 .left-half img{
    width: 100%;
 }
-
 .left-half .name-banner{
     color: orange;
     font-size: 40px;
 }
-
 .left-half .welcome{
     color: darkred;
     font-size: 30px;
 }
-
 .para{
     font-size: 15px;
     text-align: justify;
-    text-decoration-color: rgb(39, 27, 27);
+    color:  rgb(95, 90, 90);
+}
+.left-half .link-button{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 2px 20px;
+    background: linear-gradient(45deg, #24c424,rgb(190, 209, 18));
+    color: white;
+    border-radius: 8px;
+}
+.link-button:hover{
+    background: linear-gradient(45deg,#247d8d, #232268);
 }
