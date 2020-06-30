@@ -132,10 +132,10 @@ h1{
 /* End footer area */
 
 /*Start Making responsive */
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 950px){
     
     section{
-        height: 380px
+        height: 350px
     }
     .experience-area{
         height: 650px;
@@ -145,6 +145,34 @@ h1{
     }
     .footer-logo{
         width: 40%;
+    }
+}
+
+@media only screen and (max-width: 400px)
+{
+    section{
+        border: 2px solid red;
+        height: 700px;
+    }
+    .dream-area{
+        height: 550px;
+    }
+    .half{
+        float: none;
+        width: 100%;
+    }
+    .experience-area{
+        height: 1100px;
+    }
+    .single-experience{
+        width: 90%;
+        margin-bottom: 5%;
+    }
+    .footer-area{
+        position: relative;
+    }
+    .footer-area{
+        height: 130px;
     }
 }
 
